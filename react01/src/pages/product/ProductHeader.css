@@ -1,0 +1,32 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.back_product_title{
+    background-color: tomato;
+    height: 60px;
+    width: 100%;
+}
+
+.product_back{
+    float: left;
+    width: 15%;
+    font-size: large;
+    padding: 15px 0px 0px 10px;
+  
+}
+.product_title{
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    width: 70%;
+    padding: 6px 0px 0px 10px;
+}
+.product_menu{
+    float:right;
+    padding: 15px 0px 0px 10px;
+    font-size: large;
+    width: 15%;
+}

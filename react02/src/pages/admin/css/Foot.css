@@ -1,0 +1,19 @@
+.foot{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: #999;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.foot>ul>li{
+    list-style-type: none;
+    margin-left: 20px;
+    
+    float: left;
+}

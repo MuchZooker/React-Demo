@@ -1,0 +1,22 @@
+
+
+.back_edit_login_input{
+
+    background-color: #F5f5f5;
+    width: 400px;
+    height: 300px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 15px;
+    position: absolute;
+    margin: auto;
+}
+.edit_login_username{
+    margin-top: 20px;
+}
+.edit_login_password{
+    
+        margin-top: 20px;
+}

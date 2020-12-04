@@ -1,0 +1,78 @@
+.nav_top_bar{
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.nav_top_bar_left_menu{
+    height: 45px;
+    float: left;
+
+  
+}
+.nav_top_bar_left_menu img{
+    height: 35px;
+    margin-top: 5px;
+}
+.nav_top_bar_left_menu>a{
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 21px;
+    position: relative;
+    bottom: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.nav_top_bar_right_menu{
+    float: right;
+    height: 45px;
+    width: 400px;
+}
+.nav_top_bar_right_menu-loginhint{
+    float: right;
+    height: 35px;
+    width: 100px;
+    margin-top: 5px;
+    background-color: #ef404c;
+    color: white;
+    border: none;
+}
+.nav_top_bar_right_menu_newclass{
+    float: right;
+    height: 23px;
+    margin-top: 11px;
+    margin-right: 20px;
+
+    background-color: #0E7a7a7a;
+    border-radius: 3px;
+}
+.nav_top_bar_right_menu_newclass :first-child{
+    float: right;
+    font-size: 9px;
+    line-height: 13px;
+    margin-top: 4px;
+    margin-right: 10px;
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    background-color: #FFE8DB;
+    
+        /* font-size: 4px;
+       color: white;
+       line-height: 19px;
+       margin-right: 15px; */
+   }
+   .nav_top_bar_right_menu_newclass :last-child{
+    float: right;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: white;
+}

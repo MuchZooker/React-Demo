@@ -1,0 +1,71 @@
+
+.box_title {
+    font-size: 36px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+.box_hint{
+    margin: 40px auto  0;
+    width: 690px;
+    text-align: center;
+    color: white;
+}
+.box_search{
+    width: 550px;
+    padding: 0;
+    margin: 50px auto;
+}
+.box_search>input{
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    height: 35px;
+    background-color: white;
+}
+.box_search>button{
+    text-align: center;
+    width: 50px;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border: none;
+    position: relative;
+    top: 1px;
+}
+
+.explore{
+    width: 650px;
+    margin: 50px  auto 0;
+    height: 120px;
+}
+.explore>ul{
+    padding: 0;
+}
+
+.explore-tag{
+    float: left;
+    width: 130px;
+    font-size: 14px;
+    color: white;
+    height: 30px;
+    list-style-type: none;
+    float: left;
+}
+.random_changebox{
+    height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.random_change{
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+}

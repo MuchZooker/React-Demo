@@ -1,0 +1,22 @@
+.head_logo{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+.head_logo_left{
+    float: left;
+}
+
+.head_logo_left>img{
+    height: 64px;
+    position: relative;
+    top: 13px;
+}
+.head_logo_right{
+    float: right;
+}
+.head_logo_right>img{
+    height: 28px;
+    position: relative;
+    top: 31px;
+}
