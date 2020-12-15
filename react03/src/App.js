@@ -1,29 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 
-import ClockWidget from './widget/ClockWidget'
-function App() {
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+import Home from './page/Home'
+import Mine from './page/Mine'
+class App extends React.Component {
+
+
+
+
+  render(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <ClockWidget></ClockWidget>
-      </header>
-     
+      <Router>
+        <Route path='/home' component={Home}></Route>
+        <Route path='/mine' component={Mine}></Route>
+      </Router>
     
     </div>
   );
 }
+}
+
+
 
 export default App;
