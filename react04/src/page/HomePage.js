@@ -12,6 +12,7 @@ export default class HomePage extends React.Component{
                 <BannerMenu>
 
                 </BannerMenu>
+                
             </div>
         )
     }

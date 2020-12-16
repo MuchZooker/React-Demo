@@ -7,7 +7,10 @@ export default class HomeToolBar extends React.Component {
         return (
             <div className='toolbar'>
                 <div className='toolbar_container'>
-                    <span className='icon_logo'>Scode</span>
+                    <div className='toolbar_logo'>
+                        <span className='icon_logo'>Scode</span>
+                    </div>
+                    
                     {/* <div className='toolbar_right_model'> */}
                     <span className='title_model'>Blog</span>
                     <span className='title_model'>Docs</span>
