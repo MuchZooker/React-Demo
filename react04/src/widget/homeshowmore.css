@@ -1,0 +1,26 @@
+.more_out{
+    padding: 0;
+    margin: 0;
+    height: 41vh;
+}
+.more_left{
+    width: 22%;
+    height: 41vh;
+    float: left;
+}
+.more_left_splash{
+    margin-left: 60px;
+
+    height: 80%;
+}
+.more_left_splash>img{
+    width: 100%;
+
+}
+.more_left_start{
+    background-color: #607357;
+    height: 20%;
+    color: white;
+    margin-left: 60px;
+    text-align: center;
+}

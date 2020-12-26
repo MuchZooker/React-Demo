@@ -3,7 +3,7 @@
  margin: 0;   
 }
 .toolbar{
-    height: 120px;
+    height: 16vh;
     width: 100%;
 }
 .toolbar_logo{
@@ -12,7 +12,7 @@
     float: left;
 }
 .toolbar_container{
-    height: 60px;
+    height: 8vh;
     width:100%;
     position: relative;
     top: 25%;
@@ -20,6 +20,8 @@
 .toolbar_logo>.icon_logo{
     font-weight: bold;
     margin-left: 60px;
+    
+    line-height: 8vh;
     font-size: 24px;
 }
 
@@ -27,17 +29,24 @@
     
     font-weight: 400;
     margin-right: 40px;
+    
+    line-height: 8vh;
     float: left;
 }
 
 .toolbar_model_menu{
     float: right;
+    
+    line-height: 8vh;
     margin-right: 60px;
+    display: flex;
+    align-items: center;
 }
 .toolbar_model_menu>.toolbar_model_menu_item{
     float: left;
     font-weight: bold;
     margin-right: 15px;
+    line-height: 8vh;
 }
 .toolbar_model_menu>img{
     float: left;

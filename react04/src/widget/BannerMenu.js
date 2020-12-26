@@ -50,7 +50,7 @@ export default class BannerMenu extends React.Component {
                     <div className='banner_left_new_page'>
                         {
                             this.state.newPageData.map((item,index)=>{       
-                                    return <input key={index} type='checkbox' checked={index==this.state.newPageCurrentPage}/>
+                                    return <input readOnly={true} key={index} type='checkbox' checked={index==this.state.newPageCurrentPage}/>
                             })
                         }
                     </div>

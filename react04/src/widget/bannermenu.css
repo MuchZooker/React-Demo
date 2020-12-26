@@ -1,11 +1,14 @@
+.banner_out{
 
+    height: 43vh;
+}
 
 .banner_left_menu{
     width: 22%;
     height: 10px;
     float: left;
-    height: 350px;
     
+    height: 43vh;
 
     
 }
@@ -37,18 +40,18 @@
     width: 60%;
     float: left;
     
-    height: 350px;
+    height: 43vh;
 }
 .banner_imgs>img{
     object-fit: cover;
     width: 100%;
-    height: 350px;
+    height: 43vh;
 }
 .banner_right_menu{
     width: 18%;
     height: 10px;
     float: left;
-    height: 350px;
+    height: 43vh;
 }
 .banner_right_menu_item{
     height: 75%;

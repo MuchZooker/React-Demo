@@ -1,0 +1,21 @@
+.left_content_layout{
+    font-size: 13px;
+    float: right;
+    margin: 5px;
+
+    width: 60%;
+    background-color: white;
+    text-align: right;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.left_content_layout>h4{
+    margin: 5px;
+    float: right;
+}
+.left_content_layout>a{
+    margin: 5px;
+    
+    float: right;
+}
+

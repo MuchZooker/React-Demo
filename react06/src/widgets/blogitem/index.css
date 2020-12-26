@@ -1,0 +1,51 @@
+
+
+.axis_container{
+    font-size: 0;
+}
+
+.left_boxcontainer{
+  
+    width: 48%;
+    display: inline-block;
+}
+
+.left_blog_item_container{
+    width: 60%;
+    background-color: white;
+    float: right;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.center_linecontainer{
+    width: 4%;
+    
+    display: inline-block;
+}
+
+.center_linecontainer>:first-child{
+     width: 3px;
+     background-color: #E17B77;
+     margin:  0 auto;
+     height: 220px;
+}
+
+.center_linecontainer>:first-child>div{
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border: 2px solid red;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+
+
+.right_boxcontainer{
+    width: 48%;
+    display: inline-block;
+}

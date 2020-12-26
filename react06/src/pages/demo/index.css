@@ -1,0 +1,21 @@
+.demo>:first-child{
+
+    display: inline-block;
+    width: 30%;
+    background-color: green;
+}
+
+.demo>:nth-child(2){
+    
+    display: inline-block;
+    height: 100px;
+    width: 30%;;
+    background-color: gray;
+}
+.demo>:nth-child(3){
+    
+    width: 30%;;
+    display: inline-block;
+
+    background-color: yellow;
+}
